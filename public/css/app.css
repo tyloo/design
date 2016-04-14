@@ -2244,20 +2244,17 @@ table {
       flex: none;
       width: 100%; } }
 
-.navbar-item .title,
-.navbar-item .subtitle {
+.navbar-item .title, .navbar-item .subtitle {
   margin-bottom: 0; }
 
 @media screen and (max-width: 768px) {
   .navbar-item:not(:last-child) {
     margin-bottom: 10px; } }
 
-.navbar-left .navbar-item:not(:last-child),
-.navbar-right .navbar-item:not(:last-child) {
+.navbar-left .navbar-item:not(:last-child), .navbar-right .navbar-item:not(:last-child) {
   margin-right: 10px; }
 
-.navbar-left .navbar-item.is-flexible,
-.navbar-right .navbar-item.is-flexible {
+.navbar-left .navbar-item.is-flexible, .navbar-right .navbar-item.is-flexible {
   -webkit-box-flex: 1;
   flex: 1; }
 
@@ -2378,20 +2375,17 @@ table {
   color: #222324;
   margin-bottom: 20px;
   width: 100%; }
-  .table td,
-  .table th {
+  .table td, .table th {
     border: 1px solid #D3D6DB;
     border-width: 0 0 1px;
     padding: 8px 10px;
     vertical-align: top; }
-    .table td.table-icon,
-    .table th.table-icon {
+    .table td.table-icon, .table th.table-icon {
       padding: 5px;
       text-align: center;
       white-space: nowrap;
       width: 1%; }
-      .table td.table-icon .fa,
-      .table th.table-icon .fa {
+      .table td.table-icon .fa, .table th.table-icon .fa {
         display: inline-block;
         font-size: 21px;
         height: 24px;
@@ -2399,25 +2393,19 @@ table {
         text-align: center;
         vertical-align: top;
         width: 24px; }
-      .table td.table-icon.table-link,
-      .table th.table-icon.table-link {
+      .table td.table-icon.table-link, .table th.table-icon.table-link {
         padding: 0; }
-        .table td.table-icon.table-link > a,
-        .table th.table-icon.table-link > a {
+        .table td.table-icon.table-link > a, .table th.table-icon.table-link > a {
           padding: 5px; }
-    .table td.table-link,
-    .table th.table-link {
+    .table td.table-link, .table th.table-link {
       padding: 0; }
-      .table td.table-link > a,
-      .table th.table-link > a {
+      .table td.table-link > a, .table th.table-link > a {
         display: block;
         padding: 8px 10px; }
-        .table td.table-link > a:hover,
-        .table th.table-link > a:hover {
+        .table td.table-link > a:hover, .table th.table-link > a:hover {
           background: #1FC8DB;
           color: white; }
-    .table td.table-narrow,
-    .table th.table-narrow {
+    .table td.table-narrow, .table th.table-narrow {
       white-space: nowrap;
       width: 1%; }
   .table th {
@@ -2426,40 +2414,29 @@ table {
   .table tr:hover {
     background: #F5F7FA;
     color: #222324; }
-  .table thead td,
-  .table thead th {
+  .table thead td, .table thead th {
     border-width: 0 0 2px;
     color: #AEB1B5; }
-  .table tbody tr:last-child td,
-  .table tbody tr:last-child th {
+  .table tbody tr:last-child td, .table tbody tr:last-child th {
     border-bottom-width: 0; }
-  .table tfoot td,
-  .table tfoot th {
+  .table tfoot td, .table tfoot th {
     border-width: 2px 0 0;
     color: #AEB1B5; }
-  .table.is-bordered td,
-  .table.is-bordered th {
+  .table.is-bordered td, .table.is-bordered th {
     border-width: 1px; }
-  .table.is-bordered tr:last-child td,
-  .table.is-bordered tr:last-child th {
+  .table.is-bordered tr:last-child td, .table.is-bordered tr:last-child th {
     border-bottom-width: 1px; }
-  .table.is-narrow td,
-  .table.is-narrow th {
+  .table.is-narrow td, .table.is-narrow th {
     padding: 5px 10px; }
-    .table.is-narrow td.table-icon,
-    .table.is-narrow th.table-icon {
+    .table.is-narrow td.table-icon, .table.is-narrow th.table-icon {
       padding: 2px; }
-      .table.is-narrow td.table-icon.table-link,
-      .table.is-narrow th.table-icon.table-link {
+      .table.is-narrow td.table-icon.table-link, .table.is-narrow th.table-icon.table-link {
         padding: 0; }
-        .table.is-narrow td.table-icon.table-link > a,
-        .table.is-narrow th.table-icon.table-link > a {
+        .table.is-narrow td.table-icon.table-link > a, .table.is-narrow th.table-icon.table-link > a {
           padding: 2px; }
-    .table.is-narrow td.table-link,
-    .table.is-narrow th.table-link {
+    .table.is-narrow td.table-link, .table.is-narrow th.table-link {
       padding: 0; }
-      .table.is-narrow td.table-link > a,
-      .table.is-narrow th.table-link > a {
+      .table.is-narrow td.table-link > a, .table.is-narrow th.table-link > a {
         padding: 5px 10px; }
   .table.is-striped tbody tr:nth-child(2n) {
     background: #F5F7FA; }
@@ -2611,8 +2588,7 @@ table {
       height: 24px;
       line-height: 16px;
       padding: 3px 6px; }
-    .media .media .content:not(:last-child),
-    .media .media .control:not(:last-child) {
+    .media .media .content:not(:last-child), .media .media .control:not(:last-child) {
       margin-bottom: 5px; }
     .media .media .media {
       font-size: 12px;
