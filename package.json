@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "font-awesome": "^4.6.1",
     "gulp": "^3.9.1",
     "laravel-elixir": "^6.0.0-1"
   }
