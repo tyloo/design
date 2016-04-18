@@ -19,6 +19,12 @@
       flex-direction:                   column
   +tablet
     height:                             $header-height
+  &-sticky
+    position:                           fixed
+    width:                              100%
+    transition:                         all $speed $easing
+    &-scrolled
+      height:                           $header-height-scrolled
 
 .header-toggle
   @extend .hamburger
@@ -30,10 +36,12 @@
     display:                            none
 
 // Elements
-.header-item
+.header-item, .logo
   align-items:                          center
   display:                              flex
   padding:                              10px
+  margin:                               2px
+  text-transform:                       uppercase
   a
     flex-grow:                          1
   img
@@ -54,11 +62,16 @@
 
 .header-item a, a.header-item
   color:                                $text
-  &:hover
-    color:                              $link-hover
+  border-bottom:                        2px solid transparent
+  &:hover, &.is-active
+    border-bottom:                      2px solid $primary
+  &:hover, &.is-active:hover
+    color:                              white
+    background-color:                   $primary
   // Modifiers
-  &.is-active
-    color:                              $link-active
+  &.button
+    border-bottom-width:                1px
+    text-transform:                     none
 
 .header-icon
   +fa(14px, 24px)
