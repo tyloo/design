@@ -188,3 +188,12 @@
     .delete
       margin-left:                      4px
       margin-right:                     -8px
+
+// Text colors
+@each $name, $pair in $colors
+  $color:                             nth($pair, 1)
+  .text-#{$name}
+    color:                            $color
+
+.text-white
+  color:                              white
