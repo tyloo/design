@@ -25,6 +25,25 @@
     transition:                         all $speed $easing
     &-scrolled
       height:                           $header-height-scrolled
+  .header-social
+    display:                            flex
+    margin-left:                        80px
+    .header-item
+      &:hover
+        color:                          $primary
+        border-bottom-color:            transparent
+        background:                     transparent
+        &:before
+          transform:                    rotate(45deg)
+        &:after
+          transform:                    rotate(-45deg)
+      .fa
+        line-height:                    44px
+  &-sticky-scrolled
+    .header-social
+      .header-item
+        .fa
+          line-height:                  24px
 
 .header-toggle
   @extend .hamburger
@@ -42,6 +61,8 @@
   padding:                              10px
   margin:                               2px
   text-transform:                       uppercase
+  font-size:                            11px
+  font-weight:                          bold
   a
     flex-grow:                          1
   img
@@ -59,6 +80,9 @@
   // Responsiveness
   +mobile
     text-align:                         left
+.logo
+  margin-right:                         30px
+  border-bottom:                        2px solid transparent
 
 .header-item a, a.header-item
   color:                                $text
@@ -148,7 +172,6 @@
       display:                          block
 
 // States
-
 .header.is-centered
   justify-content:                      center
   .header-left, .header-right

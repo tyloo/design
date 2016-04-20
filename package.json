@@ -3,6 +3,7 @@
   "devDependencies": {
     "font-awesome": "^4.6.1",
     "gulp": "^3.9.1",
+    "hover.css": "^2.0.2",
     "laravel-elixir": "^6.0.0-1"
   }
 }
