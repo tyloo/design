@@ -1142,12 +1142,12 @@ table {
     border-width: 0 0 1px;
     padding: 8px 10px;
     vertical-align: top; }
-    .table td.table-icon, .table th.table-icon {
+    .table td.is-icon, .table th.is-icon {
       padding: 5px;
       text-align: center;
       white-space: nowrap;
       width: 1%; }
-      .table td.table-icon .fa, .table th.table-icon .fa {
+      .table td.is-icon .fa, .table th.is-icon .fa {
         display: inline-block;
         font-size: 21px;
         height: 24px;
@@ -1155,19 +1155,19 @@ table {
         text-align: center;
         vertical-align: top;
         width: 24px; }
-      .table td.table-icon.table-link, .table th.table-icon.table-link {
+      .table td.is-icon.is-link, .table th.is-icon.is-link {
         padding: 0; }
-        .table td.table-icon.table-link > a, .table th.table-icon.table-link > a {
+        .table td.is-icon.is-link > a, .table th.is-icon.is-link > a {
           padding: 5px; }
-    .table td.table-link, .table th.table-link {
+    .table td.is-link, .table th.is-link {
       padding: 0; }
-      .table td.table-link > a, .table th.table-link > a {
+      .table td.is-link > a, .table th.is-link > a {
         display: block;
         padding: 8px 10px; }
-        .table td.table-link > a:hover, .table th.table-link > a:hover {
+        .table td.is-link > a:hover, .table th.is-link > a:hover {
           background: #42AFE3;
           color: white; }
-    .table td.table-narrow, .table th.table-narrow {
+    .table td.is-narrow, .table th.is-narrow {
       white-space: nowrap;
       width: 1%; }
   .table th {
@@ -1190,15 +1190,15 @@ table {
     border-bottom-width: 1px; }
   .table.is-narrow td, .table.is-narrow th {
     padding: 5px 10px; }
-    .table.is-narrow td.table-icon, .table.is-narrow th.table-icon {
+    .table.is-narrow td.is-icon, .table.is-narrow th.is-icon {
       padding: 2px; }
-      .table.is-narrow td.table-icon.table-link, .table.is-narrow th.table-icon.table-link {
+      .table.is-narrow td.is-icon.is-link, .table.is-narrow th.is-icon.is-link {
         padding: 0; }
-        .table.is-narrow td.table-icon.table-link > a, .table.is-narrow th.table-icon.table-link > a {
+        .table.is-narrow td.is-icon.is-link > a, .table.is-narrow th.is-icon.is-link > a {
           padding: 2px; }
-    .table.is-narrow td.table-link, .table.is-narrow th.table-link {
+    .table.is-narrow td.is-link, .table.is-narrow th.is-link {
       padding: 0; }
-      .table.is-narrow td.table-link > a, .table.is-narrow th.table-link > a {
+      .table.is-narrow td.is-link > a, .table.is-narrow th.is-link > a {
         padding: 5px 10px; }
   .table.is-striped tbody tr:nth-child(2n) {
     background: #F5F7FA; }
@@ -2773,7 +2773,7 @@ a.box:active {
     display: flex;
     margin-left: 80px; }
     .header .header-social .header-item:hover {
-      color: #42AFE3;
+      color: #FFFFFF;
       border-bottom-color: transparent;
       background: transparent; }
       .header .header-social .header-item:hover:before {
@@ -2786,6 +2786,8 @@ a.box:active {
       line-height: 44px; }
   .header-sticky-scrolled .header-social .header-item .fa {
     line-height: 24px; }
+  .header-sticky-scrolled .header-social .header-item:hover {
+    color: #42AFE3; }
 
 .header-toggle {
   position: absolute;
