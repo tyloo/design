@@ -5,6 +5,7 @@
 @import 'elements/image'
 @import 'elements/notification'
 @import 'elements/progress'
+@import 'elements/spacing'
 @import 'elements/table'
 @import 'elements/title'
 
@@ -191,9 +192,18 @@
 
 // Text colors
 @each $name, $pair in $colors
-  $color:                             nth($pair, 1)
+  $color:                               nth($pair, 1)
   .text-#{$name}
-    color:                            $color
+    color:                              $color !important
 
 .text-white
-  color:                              white
+  color:                                white !important
+
+// Text colors
+@each $name, $pair in $colors
+  $color:                               nth($pair, 1)
+  .bg-#{$name}
+    background-color:                   $color !important
+
+.bg-white
+  background-color:                     white !important

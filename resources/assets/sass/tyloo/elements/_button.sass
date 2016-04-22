@@ -82,6 +82,30 @@
     &:hover, &:focus
       background:                       $border
       color:                            $text-strong
+  // Social networks
+  &.button-github, &.button-linkedin, &.button-twitter
+    color:                              $white
+    border-width:                       2px
+    &:hover
+      background-color:                 transparent
+  &.button-github
+    border-color:                       $github
+    background-color:                   $github
+    &:hover
+      color:                            $github
+      border-bottom-color:              $github
+  &.button-linkedin
+    border-color:                       $linkedin
+    background-color:                   $linkedin
+    &:hover
+      color:                            $linkedin
+      border-bottom-color:              $linkedin
+  &.button-twitter
+    border-color:                       $twitter
+    background-color:                   $twitter
+    &:hover
+      color:                            $twitter
+      border-bottom-color:              $twitter
   // Sizes
   &.is-small
     +button-small
